@@ -1,9 +1,7 @@
-# Maltimart Ecommerce
+# Attar Store (In Progress)
 
-## 📌 Live Demo
-https://multimart-ecommerce.onrender.com
 
-## 😎 Features
+## Features
 
 - Beauty UI similar to ecommerce website
 - Fully responsive and mobile friendly
@@ -25,17 +23,8 @@ From your command line, first clone this repo:
 
 ```
 # Clone this repository
-$ https://github.com/0mar-helal/multimart-react-ecommerce.git
+$ https://github.com/Zakirhassan/AttarStore.git
 
-# Go into the repository
-$ cd multimart-react-ecommerce
-
-# Remove current origin repository
-$ git remote remove origin
-
-```
-
-Then you can install the dependencies using NPM:
 
 ```
 # Install dependencies
