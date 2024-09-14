@@ -1,0 +1,52 @@
+/* Auth.css */
+.form-container {
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .slide {
+    width: 50%;
+    padding: 2rem;
+    transition: transform 0.5s ease-in-out;
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  
+  .show-login {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  
+  .show-signup {
+    transform: translateX(-100%);
+    opacity: 1;
+  }
+  
+  .image-container {
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background: #e8f0ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .image-container.move-left {
+    transform: translateX(-50%);
+  }
+  
+  .image-container h5 {
+    color: #333;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
